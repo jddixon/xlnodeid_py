@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if [ ! -z "${DEV_BASE// }" ]
+then
+  cd $DEV_BASE/py/xlnodeid_py
+  
+  autopep8 -ai -r xlnodeid *.py
+  
+else
+  echo "DEV_BASE is not defined"
+fi
