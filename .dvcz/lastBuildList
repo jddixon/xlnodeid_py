@@ -7,25 +7,22 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END RSA PUBLIC KEY-----
-xlnodeid_py v0.0.3
-2017-03-04 21:08:27
+xlnodeid_py v0.0.4
+2017-03-19 00:26:07
 # BEGIN CONTENT #
 xlnodeid_py
- .coverage a30bf2fd5e5138627f7bfa07e7c98c6ad136d84a
  .dvcz
-  builds 6c05ba98a4bef9fcd8f32f6fe320c6050ebca71b
-  copyright 03efbf5a1d4c1f2a8e01f434653fab4f20777238
-  lastBuildList 09d1ea43b95c65b88f977175492aeb09e8f64ccb
+  builds aaf920a56d77484201f40846729b8d488bc8484d
+  copyright 04e8696e6424c21d717e46008780505d598eb59a
+  lastBuildList 7ff45e5794d8e7441ab732f7e164810acbfb9bf2
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
-  projCfg 668bfd341a7e30e49406b6ddc385c1c825063e25
+  projCfg 892e818184363f405035cc20be342ed6e9879179
   projCfg.local d99b97af86b5a0f5c356c990a2078faac53af26c
-  version 285b6b2cd23e7901b95425d6a4dc7bea93ac7e87
- .gitignore 435674fb49fdec34b15f8578859300650c760f42
- .wrapped 238f965e26fbff5a4827a97430036f2fb98bafdb
- CHANGES 91061c6eff8e89b0a94bdefc6a5b0baff115d6df
- CHANGES.bak 0bd213ab86bc7114fdffe4003b6cd83a83f48dc1
- LICENSE-MIT.md 22d1a7acfe925d189280793d86aa9b1dc542daab
- MANIFEST 9ca688465a2240173e3dceb5e514de646c670abe
+  version f7a1984ba3e5481f36aff2ed47fa5133cd6fd4f8
+ .gitignore a29a464d1f999a8323f7cafe43fe2587b321f818
+ .gitignore.local 701e71ad917b19e7f6b7fd4bdc542180e9d977a7
+ CHANGES b44514ed3b985451eba8cba21b2bb069fea6c4a2
+ LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
  README.md adeb00c12c15811a1a5ba91bfef60fc688ba4326
  TODO a864b3473a0a2ab760563174808a326c41320d33
  bkp2U 6982c544b77dcf12d19765ae6e6ce01fc1c24946
@@ -34,6 +31,7 @@ xlnodeid_py
  dist
   xlnodeid_py-0.0.2.tar.gz 7490b0e7165bd3c69dfed877fe1803b379d4d196
   xlnodeid_py-0.0.3.tar.gz f1ec8ff39e3b9446f9c92be71b8244364d497cd2
+  xlnodeid_py-0.0.4.tar.gz 187eec859431eb5df595d97fbca4fab5d8f1b05e
  doPyLint 3518337b18070b29a141dd08922d23da31d05d6d
  ghpDoc
   index.md a573d72464c88f476cd14c3af4c7460a473af510
@@ -41,11 +39,10 @@ xlnodeid_py
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
  setup.py a6a1fb9137104584845e19b9b18b0c7ba3ddbe33
  styleit b17f6d80f149171bbd427623d35b5a410b570992
- test.all f1038488c14177dacf30868209086e0cef39fec8
- test_basics.py 91c330fef74f65ca646d91979654ff954715ebbb
+ test.all 9941b36a2c7b4db2baad0ebb39d4d7d6e97ed5f1
+ test_xlnodeid.py 79b90da46d2c441653151ae902afa54e27765f94
  xlnodeid
-  __init__.py e4ea954981692db726702bffd25e9d7a369fafba
-  __init__.py.bak 097059f2da41ed5d342d59ff8fbb14c7210b8bbe
+  __init__.py b34bb4777d8e647d116d4743de4d42e647f65bc1
 # END CONTENT #
 
-BdAnZCalGwVG7Ix4NoTAMie0ZGg7SZvSD0dI00nUJvk5pT4PMZXRM16FHSIazKPSVW2VzEDkklfaaOkTJBQc/rtACf0bQmuJyhYV/bey2G2M+xbAQ9vd7sjcW0U2xDjqItLiXuLiob22URoVHeoKFev1W9KoL1pxOL32HHAuIj+JI54rNVkxJoTOJf+SlExKIFQYNc7+HNftKliAlQNen+7mPR0yPNX9F00RlCjBTce2RavTKRMMuSofMH4QEV8ZvoRLGncMr0xcpywMa/WIEpRak6+T/XoBDib4HbD3UpBBxSCvJk7oR+UmweUGwAAf7YjkuEk0kIG6YbsJZMsgMA==
+b9BykucmluTzHzm9XxLO6In8Lnj05mKftzBNIhC4xTA4l4jkRidHc3gPcsxn3L5uAQZweFj9S6CgsyHDR9lRpNqUUwujBIEwQE9Be1Dt1++Z95+KR8jDmPkJPGTj3mi0EWanGtbwUhSmsvrKjwOJlZwEGBkn2qMDgvvVvkt91xSTsCmJD54woS+WLC8bseA5yC8KtF/UubKhz+XLhmIVrQu1P2jHNvhJo2no5tE6Ua7a78swzfu6gwhsSfEU1tGan448X7Me7iTcMdF7zlMtOfM26o6NUV/Vmz6NCJtiGRD5UxsNsVWvS0i6BYOuGBNl+pdkC6u11gkugeyLA/0chA==
