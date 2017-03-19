@@ -1,6 +1,9 @@
 py/xlnodeid_py/CHANGES
 
 
+v0.0.4
+    2017-03-18
+        * XLNodeID and rudimentary test_xl_node_id.py               SLOC  436
 v0.0.3
     2017-03-04
         * add pylint, checkCoverage, test_basics.py                 SLOC  339
@@ -10,6 +13,7 @@ v0.0.2
 v0.0.1
     2017-02-28 
         * initial commit
+
 
 
 
