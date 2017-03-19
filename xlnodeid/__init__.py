@@ -7,8 +7,8 @@ from copy import deepcopy
 
 from xlattice import SHA1_BIN_LEN, SHA2_BIN_LEN, SHA3_BIN_LEN
 
-__version__ = '0.0.4'
-__version_date__ = '2017-03-18'
+__version__ = '0.0.5'
+__version_date__ = '2017-03-19'
 
 __all__ = ['__version__', '__version_date__',
            'XLNodeIDError', 'XLNodeID']
@@ -43,7 +43,7 @@ class XLNodeID(object):
 
     @staticmethod
     def is_valid_node_id(val):
-        """ Return whether val is a valid NodeID value. """
+        """ Return whether val is a valid XLNodeID value. """
         if not val:
             return False
         if not isinstance(val, bytes) and not isinstance(val, bytearray):
@@ -57,11 +57,11 @@ class XLNodeID(object):
         return True
 
     def clone(self):
-        """ Return a deep copy of the NodeID instance. """
-        return NodeID(self._node_id)
+        """ Return a deep copy of the XLNodeID instance. """
+        return XLNodeID(self._node_id)
 
     def __eq__(self, other):
-        if not isinstance(other, NodeID):
+        if not isinstance(other, XLNodeID):
             return False
         return self._node_id == other.value
 
