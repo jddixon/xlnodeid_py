@@ -1,3 +1,2 @@
-pylint setup.py xlnodeid                                              \
-    test*.py
+pylint setup.py src tests
 

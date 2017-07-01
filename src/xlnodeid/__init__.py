@@ -7,8 +7,8 @@ from copy import deepcopy
 
 from xlattice import SHA1_BIN_LEN, SHA2_BIN_LEN, SHA3_BIN_LEN
 
-__version__ = '0.0.5'
-__version_date__ = '2017-03-19'
+__version__ = '0.0.6'
+__version_date__ = '2017-05-29'
 
 __all__ = ['__version__', '__version_date__',
            'XLNodeIDError', 'XLNodeID']

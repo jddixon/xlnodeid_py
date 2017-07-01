@@ -144,5 +144,6 @@ class TestNodeID(unittest.TestCase):
         for length in [SHA1_BIN_LEN, SHA2_BIN_LEN, SHA3_BIN_LEN]:
             self.do_test_comparison(length)
 
+
 if __name__ == '__main__':
     unittest.main()
