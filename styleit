@@ -4,7 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/xlnodeid_py
   
-  autopep8 -ai -r xlnodeid *.py
+  autopep8 -air src tests
   
 else
   echo "DEV_BASE is not defined"
