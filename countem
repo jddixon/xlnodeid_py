@@ -6,7 +6,7 @@ then
   
   rm -rf build/* tmp/* 
   
-  pySloc -L py   -X cover -X htmlcov -X dist -v $@ src/* tests/*
+  pySloc -L py  -X cover -X htmlcov -X dist -v $@ src/xlnodeid tests/test_xlnodeid.py setup.py
 else
   echo "DEV_BASE is not defined"
 fi
