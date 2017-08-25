@@ -1,5 +1,8 @@
 py/xlnodeid_py/CHANGES
 
+v0.0.8
+    2017-08-25
+        * add tox.ini, *requirements.txt; plus minor edits          SLOC  550
 v0.0.7
     2017-08-04
         * rewrite setup.py; minor edits cfg files                   SLOC  506
@@ -21,6 +24,7 @@ v0.0.2
 v0.0.1
     2017-02-28 
         * initial commit
+
 
 
 

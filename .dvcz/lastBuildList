@@ -7,41 +7,48 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xlnodeid_py v0.0.7
-2017-08-04 18:08:44
+xlnodeid_py v0.0.8
+2017-08-25 21:55:34
 # BEGIN CONTENT #
 xlnodeid_py
+ .cache
+  v
+   cache
+    lastfailed bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f
  .dvcz
-  builds 44a9368fc71f7cb0bd6d93755ad46b3e6c3c4d76
+  builds c4557b4422f2bae38b73c3f0681985bc438a6290
   copyright 04e8696e6424c21d717e46008780505d598eb59a
-  lastBuildList b799f502fd9aa31825f92ac9444e873be9a81c8d
+  lastBuildList 429b5da7c573b63b4f1fd83db13983f0900828b5
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
-  projCfg 73a580d2d4b12aca4924035f4bfd16344d3a7c50
+  projCfg 45f7a50b08b1e519fd6b5877eecebcc16fd73a50
   projCfg.local d99b97af86b5a0f5c356c990a2078faac53af26c
-  version 38fa3481a759a5e54d375b259f61a140ccd6509b
- .gitignore 9b81ca41b8f8cdad84069782f69745729f2dd932
+  version 3c369092d1b83c99e1735226c2ac867592809b4b
+ .gitignore 66cdf14587db03a9da48b25485fb91cda70b66b3
  .gitignore.local 701e71ad917b19e7f6b7fd4bdc542180e9d977a7
- CHANGES 0dfc732f7925ec64ec4d3bcf12a227b099dbc86f
+ CHANGES 2851e44349c233535640615197bf4c08e68e1a46
  LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
- MANIFEST.in 4adf906b2cd5a5e68a3d78a36d9c643627646b7e
+ MANIFEST.in ee87ecf6928c0c4c69376734eba9cf532ce748b1
  README.md e5daf792ef740fec538fe3294e6332f02a4350ee
  TODO 4db9598a8fbd72b43d7286cbad9c9ee649588bcf
  bkp2U 6982c544b77dcf12d19765ae6e6ce01fc1c24946
  checkCoverage a9aa34ae61f6a135c493beb740613d9e2f3d6a78
- countem e764e27e37129e9f2db08b487f14aa6c1ea6631a
+ countem 0003d0eb01358666f5c3b1998b6799fc25671b9c
  doPyLint 31321ad99eb3b9ac0928a68c29a8b5b88c9472fb
  ghpDoc
   index.md 76a7bf7ab4a9648829daa148a6139403f07442bd
  installit 8ef7c3d917ca32fab05802197fb9a68306cf22ea
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- setup.py 13ed707d76d47ccd39d99a90f520538ec472d950
+ requirements.txt 3973e978ab417ecea06a75cf27fd07293a80f952
+ setup.py 4b1eb9707614644be0a84d66ab6d8a6ccad56b17
  src
   xlnodeid
-   __init__.py f1e136c0a8ccec52a7899a5debc2e8c777779284
+   __init__.py 874a59a2905ef4f8bd266dafe46f8377e7419884
  styleit 78a7eb2bcd2986f92bab96f44a99b7a8bd0dc232
  test.all 558a43ab7d1aeb46b20c85d7f525edde10063750
+ test_requirements.txt 40b7a6b03fe8466fcfd97b67733b0988ea5e3063
  tests
-  test_xlnodeid.py 3be1953db917f4c126395e31935ba27b250a3d85
+  test_xlnodeid.py b4a8cc1a5d6c4215b535f11753952751ad9211bf
+ tox.ini abfc4bfdc02038bc7b80820106b22465f5a3f059
 # END CONTENT #
 
-eRkAycESeKOszTqSYIMkZITWuN3gJndwnSx+sn52tdyrxbogZPK+cfYu5yCoHSCdm/Zr01EEnMqniyJ9Ts6nipz+ZV/yyBLHOP8eslToQ2FdMxo/yVbR7oyXpTyRCe0rkyv3UT7SuChFyxrwgUgsBKaCd0QE3gfBF4295HUzvDfA19nahtUWFsM7YzUrwOl+bVik9SEfdrYhHt3SsVSsHPCfp26Tj4LYLOsRpZrxxGMKFgEqqx6ZmZYqgnxQglJ31Bqv1Yg3H9gIX+54aj5UVSUq8HMlO5AhVoD1wXresAuffc+uN6t17cL/2ismb8bkhwUvM4HZe20/gRVAxbzSRg==
+CAKtnr35CK8n/0w9T2l90R6OXVtyGfjraLz/jJojcxmq5w+O+KJ3IWWLMugaUcvJgWdz3Asddq1EmL0QMc2NKdN+7YueTy5xUPs385cKDPrb8ICsnQ474wNqtyuhiAIvwx1pTMheWj3SliYiLfst+wYIykFIRj+Px712k8APU9PkmBH+b4WgOMOgSG2Q0HZkFL+drJYmNw+tLEkFAKLMiYX6wFUaNVX03nlz1MomeR6BXXi5EUH/PpEmQm+JvS/9s9JUhQLEXCDaoSC+zlQdq7b5MvSawe8MEZ+vZ+UsQPwG8ujZwvSICFLkOM/8VdXMlLB1F0PW+rGmCCMJ6JNMtw==

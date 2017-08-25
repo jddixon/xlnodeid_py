@@ -43,7 +43,7 @@ class TestNodeID(unittest.TestCase):
     def expect_failure(self, val):
         """ Expect object construction to fail. """
         try:
-            _ = XLNodeID(val)
+            XLNodeID(val)
             self.fail("XLNodeID constructed with bad ID")
         except XLNodeIDError:
             pass
