@@ -7,22 +7,19 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xlnodeid_py v0.0.9
-2017-10-14 21:41:53
+xlnodeid_py
+2017-12-26 00:34:59
 # BEGIN CONTENT #
 xlnodeid_py
  .dvcz
-  builds 6831b5414e573d9869d6f9ae6a60ea9714ea109d
-  copyright 04e8696e6424c21d717e46008780505d598eb59a
-  lastBuildList e7907a3a2087ebfc93a357301bf085d49498826f
-  license 5977a55c75bb4612004451a56b0b4c22d9d3311d
+  builds 006f5222dca538065b0ada519905a3e1b591e467
+  lastBuildList e704c65cc71e7d84c0702cc9e671c59c594accab
   projCfg 45f7a50b08b1e519fd6b5877eecebcc16fd73a50
   projCfg.local d99b97af86b5a0f5c356c990a2078faac53af26c
-  projConfig.toml c52dcc6f9f17d8f3a5b26acb302c23ee6e00e445
-  version 6e065d4a5ecfc1c7d806075caf23d55360fcd4e8
+  projConfig.toml bf5547a234f047eadbe5deff3619148da1fba68b
  .gitignore f588928d66e053d08e0c1d824b6874a244573090
  .gitignore.local 701e71ad917b19e7f6b7fd4bdc542180e9d977a7
- CHANGES 946347ed62ddd91885190c212f33b262311d6a53
+ CHANGES 5d4cb6581698f4675e885e43799598a869ecb5af
  LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
  MANIFEST.in ee87ecf6928c0c4c69376734eba9cf532ce748b1
  README.md e5daf792ef740fec538fe3294e6332f02a4350ee
@@ -36,10 +33,10 @@ xlnodeid_py
  installit 8ef7c3d917ca32fab05802197fb9a68306cf22ea
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
  requirements.txt dfc8cb1777e62aa205557e8788a1210f6d35d61a
- setup.py 147c3f578b093c907971d27e422f0da7c46ed3fc
+ setup.py d16707e17185fdd97db4735f455ddc08009ae378
  src
   xlnodeid
-   __init__.py 49415cdc4b6d24741d7cfaa4ea1d0482d4bf3676
+   __init__.py 45082fb6fbb06f6daacd01a381a04be72926fff3
  styleit 78a7eb2bcd2986f92bab96f44a99b7a8bd0dc232
  test.all 558a43ab7d1aeb46b20c85d7f525edde10063750
  test_requirements.txt 40b7a6b03fe8466fcfd97b67733b0988ea5e3063
@@ -48,4 +45,4 @@ xlnodeid_py
  tox.ini 0ea51229b91dc2e1b60136c23e324da91d2110d3
 # END CONTENT #
 
-dMGDWh6GiqfEUkhusygMMH1EHfvLUXuSVnf4HNJ7REzP2D4D3xtozc2r/9HTo5rkGml+VCqtJuZV+fY/CWmTTi1/eIJHGPjyZ1+bpcPtKPXTpGL6lg+j9D+JCUHgijYN4hhuGoyB/wdO6N5Z/evx+hK/hgf/T9efed0grabZ3ejp/95zhpNlYfxfmOupaaKYOVt7v3eYnRKF7VLJ55oXf9zfLp6aVUPogq03c0cs3tndD8Wavzkd5tVDy0aRdZUQuwbOYJ6Eyz40U+8stF2Bef1T2w6DVNe+o7HKHeOV+bqW6sPrIu5ZDfKYaAPbbMXfY4YUpIpU8DypAQHS28KXuQ==
+ktOwst66Mj0kiTadMaZNi9SMdLTrWpUob0N1QhmjwblBOU2+6q8VUbUftmRwdR/TjQOFwpcDBIWqv3q2iw2oT19piQYsvzP64WtjIuoZMUxQQTTwBugceyhQrX2aS9VZGIpssyrw8CdYEkDSCv9y9myxGz7ul0O+UlZaRvLKFIE0A44fsE8UnWdH5GwzBvdK+/eovsmFUJ23UduIAY4/HTlKmiOGklwHs/L9ewuxL3lgnDg+WiSBJPwm3PEF4y8WpEj8kErun30iEqVZMgDCX8TQ5zfebIhasiV9Vszz+esdHqBP8eUo3FNRXhPEx6eLQqVEnOsGP6Wl/BtIqNgGMw==
