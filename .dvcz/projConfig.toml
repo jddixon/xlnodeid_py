@@ -1,34 +1,30 @@
-projConfig.toml for xlnodeid_py
-
 [meta]
-    version = '0.1.0'
+version = "0.1.0"
 
 [project]
-    name = 'xlnodeid_py'  # distro name
-    package = 'xlnodeid_py'  # internal name
-    proj_dir = '/home/jdd/dev/py/xlnodeid_py'
-    main_lang = 'py'
-    version = '0.0.8'
-    version_date = '2017-08-25'
-    author = 'Jim Dixon'
-    author_email = 'jddixon@gmail.com'
-    copyright = '2017'
-    description = 'nodeid layer for xlattice_py'
-    dev_status = 'pre_alpha'
-    license = 'mit'
-    state = 'shared'
-    url = 'https://jddixon.github.io/xlnodeid_py'
+name = "xlnodeid_py"
+package = "xlnodeid_py"
+main_lang = "py"
+version = "0.0.10"
+version_date = "2017-12-25"
+author = "Jim Dixon"
+author_email = "jddixon@gmail.com"
+copyright = "2017"
+description = "nodeid layer for xlattice_py"
+dev_status = "pre_alpha"
+license = "mit"
+relpath = "py/xlnodeid_py"
+state = "shared"
+url = "https://jddixon.github.io/xlnodeid_py"
 
 [py]
-    packages=['xlnodeid']
-    package_dir = ['src']
-    test_dir = ['tests']
-    py_modules=[]
-    scripts=[]
-    ext_modules=[]
-
-    # sdReq output
-    distshare=['rnglib', 'xlattice_py']
-    env_vars=[]
-    requirements=['setuptools']
-    test_requirements=[]
+packages = [ "xlnodeid",]
+package_dir = [ "src",]
+test_dir = [ "tests",]
+py_modules = []
+scripts = []
+ext_modules = []
+distshare = [ "rnglib", "xlattice_py",]
+env_vars = []
+requirements = [ "setuptools",]
+test_requirements = []
